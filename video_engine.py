@@ -2,7 +2,7 @@ import os
 import json
 from gtts import gTTS
 from PIL import Image, ImageDraw, ImageFont
-import moviepy.editor as mp
+import moviepy as mp
 from google import genai
 
 def generate_history_script(api_key: str, topic: str) -> dict:
